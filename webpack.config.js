@@ -54,7 +54,14 @@ let webpackConfig = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        include: path.resolve(__dirname, 'src'),
+        include: [
+          path.resolve(__dirname, 'src'),
+          path.resolve(__dirname, 'node_modules/framework7'),
+          path.resolve(__dirname, 'node_modules/framework7-vue'),
+          path.resolve(__dirname, 'node_modules/template7'),
+          path.resolve(__dirname, 'node_modules/dom7'),
+          path.resolve(__dirname, 'node_modules/ssr-window'),
+        ],
         use: [{
           loader: 'babel-loader',
           options: {
