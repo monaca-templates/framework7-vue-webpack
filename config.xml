@@ -91,14 +91,6 @@
     <splash src="/res/android/screen/splash-mdpi.png" density="mdpi"/>
   </platform>
   <platform name="electron">
-    <icon src="/res/electron/icon/icon_electron_16.png" width="16" height="16"/>
-    <icon src="/res/electron/icon/icon_electron_24.png" width="24" height="24"/>
-    <icon src="/res/electron/icon/icon_electron_32.png" width="32" height="32"/>
-    <icon src="/res/electron/icon/icon_electron_48.png" width="48" height="48"/>
-    <icon src="/res/electron/icon/icon_electron_64.png" width="64" height="64"/>
-    <icon src="/res/electron/icon/icon_electron_96.png" width="96" height="96"/>
-    <icon src="/res/electron/icon/icon_electron_128.png" width="128" height="128"/>
-    <icon src="/res/electron/icon/icon_electron_256.png" width="256" height="256"/>
     <icon src="/res/electron/icon/icon_electron_512.png" width="512" height="512"/>
     <splash src="/res/electron/screen/electron_splash_image.png" width="620" height="300"/>
   </platform>
