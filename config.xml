@@ -93,5 +93,7 @@
   <platform name="electron">
     <icon src="/res/electron/icon/icon_electron_512.png" width="512" height="512"/>
     <splash src="/res/electron/screen/electron_splash_image.png" width="620" height="300"/>
+    <preference name="SplashScreenWidth" value="620"/>
+    <preference name="SplashScreenHeight" value="300"/>
   </platform>
 </widget>
