@@ -91,9 +91,10 @@
     <splash src="/res/android/screen/splash-mdpi.png" density="mdpi"/>
   </platform>
   <platform name="electron">
-    <icon src="/res/electron/icon/icon_electron_512.png" width="512" height="512"/>
+    <icon src="/res/electron/icon/icon_electron_512.png" target="app"/>
     <splash src="/res/electron/screen/electron_splash_image.png" width="620" height="300"/>
     <preference name="SplashScreenWidth" value="620"/>
     <preference name="SplashScreenHeight" value="300"/>
+    <preference name="ShowSplashScreen" value="false"/>
   </platform>
 </widget>
