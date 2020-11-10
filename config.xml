@@ -33,7 +33,7 @@
   <preference name="PageLength" value="0"/>
   <preference name="PaginationBreakingMode" value="page"/>
   <preference name="PaginationMode" value="unpaginated"/>
-  <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1,2"/>
+  <preference name="target-device" value="universal"/>
   <feature name="App">
     <param name="android-package" value="org.apache.cordova.App"/>
   </feature>
