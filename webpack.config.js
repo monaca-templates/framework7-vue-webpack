@@ -170,7 +170,7 @@ if(devMode) {
       template: 'src/public/index.html.ejs',
       chunksSortMode: 'dependency',
       externalCSS: ['components/loader.css'],
-      externalJS: ['components/loader.js'],
+      externalJS: ['cordova.js', 'components/loader.js'],
       minify: {
         caseSensitive: true,
         collapseWhitespace: true,
